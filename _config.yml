@@ -24,14 +24,14 @@ author:
   avatar           : "profile.png"
   name             : "Benjamin Scott"
   pronouns         :   
-  bio              : "Master's student at UC San Diego in the Computer Science and Engineering Department"
+  bio              : "First-year Graduate student        UC San Diego         M.S. Computer Science"
   location         : "San Diego, CA"
   employer         : 
   uri              : 
   email            : "bmscott@ucsd.edu" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : # URL - Update with the corredct link to your profile
   googlescholar    : 
   impactstory      : # URL
   orcid            : 
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "bmscott73"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -56,9 +56,9 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : ben_m_scott
+  instagram        : 
   lastfm           : # Username
-  linkedin         : benjamin_scott73
+  linkedin         : benjamin_scott_73
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
