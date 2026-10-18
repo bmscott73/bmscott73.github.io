@@ -5,32 +5,25 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>Selected publications and manuscripts.</p>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+{% assign statuses = "accepted,under_review" | split: "," %}
+{% for status in statuses %}
+  {% assign papers = site.data.publications | where: "status", status %}
+  {% if papers.size > 0 %}
+    {% if status == "accepted" %}
+      <h2>Accepted papers</h2>
+    {% else %}
+      <h2>Manuscripts under review</h2>
+    {% endif %}
+    {% for paper in papers %}
+      <article class="publication-entry">
+        <h3>{{ paper.title | escape }}</h3>
+        <p>{{ paper.authors | escape | replace: 'Benjamin Scott', '<strong>Benjamin Scott</strong>' }}<br>
+        <em>{{ paper.venue | escape }}</em>, {{ paper.year }}.<br>
+        {% if status == "accepted" %}Accepted{% else %}Under review{% endif %}.
+        {% if paper.paperurl %}<a href="{{ paper.paperurl | escape }}">Paper</a>{% endif %}</p>
+      </article>
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+  {% endif %}
+{% endfor %}

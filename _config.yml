@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Benjamin Scott"
 title_separator          : "-"
 name                     : &name "Benjamin Scott"
-description              : &description "Master's student at UC San Diego"
+description              : &description "PhD student researching HW/SW co-design, space computing, thermal challenges"
 url                      : https://bmscott73.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bmscott73/bmscott73.github.io"
@@ -21,10 +21,10 @@ repository               : "bmscott73/bmscott73.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_photo.png" # Fallback; edit _data/profile.yml for the live photo setting.
   name             : "Benjamin Scott"
   pronouns         :   
-  bio              : "First-year Graduate student        UC San Diego         M.S. Computer Science"
+  bio              : "ECE PhD student"
   location         : "San Diego, CA"
   employer         : 
   uri              : 
@@ -117,7 +117,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
@@ -157,6 +157,29 @@ include:
   - _pages
   - files
 exclude:
+  # Starter/demo content; remove a collection here when adding your own entries.
+  - README.md
+  - EDITING.md
+  - _publications
+  - _posts
+  - _talks
+  - _portfolio
+  - markdown_generator
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - _pages/portfolio.html
+  - _pages/collection-archive.html
+  - _pages/archive-layout-with-content.md
+  - _pages/talks.html
+  - _pages/non-menu-page.md
+  - _pages/terms.md
+  - _pages/category-archive.html
+  - _pages/tag-archive.html
+  - _pages/year-archive.html
+  - _pages/talkmap.html
+  - _pages/page-archive.html
+  - _pages/markdown.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

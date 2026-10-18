@@ -1,9 +1,10 @@
 ---
+published: false
 title: "Tutor"
 collection: teaching
 type: "CSE 151A Machine Learning: Learning Algorithms"
 permalink: 
-venue: "UC San Diego, CSE Department"
+venue: "UC San Diego, CSE Department, Prof. Edwin Solares"
 date: 2024-07-01
 location: "San Diego, CA"
 ---

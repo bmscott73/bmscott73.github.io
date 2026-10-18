@@ -1,0 +1,26 @@
+# Entries transcribed from PhD-Resume-2026.docx. Update status when decisions change.
+- status: accepted
+  title: "DELEA: Distributed Ensemble Learning for Energy-Efficient IoT Applications"
+  authors: "Benjamin Scott, Kaila Rosing, Yi-Yang Chen, Flavio Ponzina"
+  venue: "Modeling, Analysis and Simulation of Wireless and Mobile Systems (MSWiM)"
+  year: 2026
+- status: accepted
+  title: "Early Detection of Satellite Telemetry Data Anomalies using Hyperdimensional Computing"
+  authors: "Benjamin Scott, Tajana Rosing, Flavio Ponzina"
+  venue: "Artificial Intelligence In and For Space (SPAICE)"
+  year: 2026
+- status: under_review
+  title: "3D-ICE-Glass: Calibrated Thermal-Aware Floorplanning of Photonic Glass Packages for Scalable AI"
+  authors: "Benjamin Scott, Sohrab Sofla, Pranav Bussannagari, Tejinder Singh, Flavio Ponzina, Madhavan Swaminathan, Tajana Rosing"
+  venue: "Design, Automation and Test in Europe Conference (DATE)"
+  year: 2027
+- status: under_review
+  title: "PanAgretti: A Panel-Scale Computing Substrate for Agentic AI Serving"
+  authors: "Tianqi Zhang, Jason Kong, Ryan Baum, Benjamin Scott, et al."
+  venue: "Design, Automation and Test in Europe Conference (DATE)"
+  year: 2027
+- status: under_review
+  title: "HyperBeam: Codebook-based beamforming for NextG Networks"
+  authors: "Drake Lovelady, Zaid Aljerme, Benjamin Scott, Tajana Rosing, Flavio Ponzina"
+  venue: "Design, Automation and Test in Europe Conference (DATE)"
+  year: 2027
