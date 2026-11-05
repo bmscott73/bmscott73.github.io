@@ -164,3 +164,11 @@
     </ul>
   </div>
 </div>
+
+{% if page.permalink == "/" %}
+<aside class="internship-card" aria-label="Internship availability">
+  <p class="internship-card__label">Available for Internship</p>
+  <p>Interested in the <strong>space</strong> and <strong>semiconductor</strong> industries.</p>
+  <a href="mailto:{{ site.author.email }}">Let's connect &rarr;</a>
+</aside>
+{% endif %}

@@ -7,15 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<aside class="internship-card" aria-label="Internship availability">
-  <p class="internship-card__label">Available for Internship</p>
-  <p>Interested in the <strong>space</strong> and <strong>semiconductor</strong> industries.</p>
-  <a href="mailto:{{ site.author.email }}">Let's connect &rarr;</a>
-</aside>
-
 I am a Ph.D. student in the Electrical and Computer Engineering Department at University of California, San Diego and San Diego State University (joined Fall 2026), co-advised by [Prof. Tajana Rosing](https://cseweb.ucsd.edu/~trosing/) and [Prof. Flavio Ponzina](https://flavio-ponzina.github.io/flavio-ponzina/index.html). Previously, I graduated with my M.S. (2026) and B.S. (2025) in Computer Science at University of California, San Diego. My primary research interests are energy-efficient space systems, particularly focusing on HW-SW co-design optimizations, thermal integration challenges, and integrated photonics.
-
-<div class="home-section-break"></div>
 
 ## Current projects
 
