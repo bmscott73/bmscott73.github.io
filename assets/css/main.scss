@@ -53,12 +53,12 @@
   font-size: 0.85em;
   line-height: 1.5;
 }
-.internship-card svg { display: block; width: 100%; height: auto; }
+
 .internship-card p { margin: 0 0 0.7em; }
 .internship-card .internship-card__label { font-weight: 700; font-size: 1.1em; }
 .internship-card a { color: #235e73; font-weight: 600; }
 .home-section-break { clear: both; }
 @media (max-width: 1100px) {
   .internship-card { float: none; width: 100%; margin: 0 0 1.5em; }
-  .internship-card svg { max-width: 190px; margin: 0 auto; }
+
 }
