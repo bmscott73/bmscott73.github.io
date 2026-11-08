@@ -6,3 +6,4 @@ author_profile: true
 ---
 
 - **Pranav Bussannagari** — BS/MS, UC San Diego (UCSD)
+- **Ethan Herman** — BS/MS, UC San Diego (UCSD)
