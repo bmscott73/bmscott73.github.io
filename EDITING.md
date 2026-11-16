@@ -17,7 +17,7 @@ Edit the final paragraph of `_pages/about.md` to update your hobbies and interes
 
 ## Add publications
 
-Edit `_data/publications.yml`. Each entry has `title`, `authors`, `venue`, `year`, and `status` (`accepted` or `under_review`). Add an optional `paperurl` when a public paper link is available. The Publications page groups these entries by status automatically. Update the status when a decision arrives.
+Edit `_data/publications.yml`. Each entry has `title`, `authors`, `venue`, `year`, and `status` (`accepted`). Add an optional `paperurl` when a public paper link is available. The Publications page displays accepted papers only. Add a paper after acceptance; do not store submitted manuscripts in this public data file.
 
 The old `_publications/` demo collection remains excluded; do not enable those fictional entries.
 
